@@ -181,7 +181,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-width: 873px) {
   .container {
     flex-direction: column;
     text-align: center;
