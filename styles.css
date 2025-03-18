@@ -61,12 +61,6 @@ header {
   max-width: 500px;
 }
 
-.text-content a {
-  text-decoration: none;
-  color: inherit;
-  border-bottom: 2px solid #25d366;
-}
-
 .text-content h1 {
   font-size: 48px;
   margin-bottom: 20px;
