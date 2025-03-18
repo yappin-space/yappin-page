@@ -1,5 +1,8 @@
+* {
+  font-family: "Inter";
+}
+
 body {
-  font-family: Arial, sans-serif;
   background-color: #fef7ee;
   margin: 0;
   padding: 0;
@@ -84,6 +87,10 @@ header {
   .image-content {
     max-width: 80%;
   }
+
+  header {
+    padding: 15px 20px;
+  }
 }
 
 /* FAQ Section */
@@ -138,18 +145,24 @@ header {
   background: #25d366;
   color: white;
   font-size: 14px;
-  width: 32px;
-  height: 32px;
+  width: 2rem; /* Gunakan ukuran relatif */
+  aspect-ratio: 1 / 1; /* Pastikan tetap lingkaran */
   border-radius: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
   transition: transform 0.3s ease-in-out;
+}
+
+.faq-title {
+  font-weight: 500;
+  color: black;
+  align-items: left;
 }
 
 .faq-answer {
   max-height: 0;
   overflow: hidden;
+  align-items: left;
   font-size: 16px;
   color: #555;
   padding: 0 20px;
