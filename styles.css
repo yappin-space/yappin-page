@@ -77,22 +77,6 @@ header {
   border-radius: 20px;
 }
 
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-  }
-
-  .image-content {
-    max-width: 80%;
-  }
-
-  header {
-    padding: 15px 20px;
-  }
-}
-
 /* FAQ Section */
 .help-container {
   max-width: 1000px;
@@ -145,7 +129,8 @@ header {
   background: #25d366;
   color: white;
   font-size: 14px;
-  width: 2rem; /* Gunakan ukuran relatif */
+  min-width: 32px;
+  min-height: 32px;
   aspect-ratio: 1 / 1; /* Pastikan tetap lingkaran */
   border-radius: 50%;
   display: flex;
@@ -154,6 +139,7 @@ header {
 }
 
 .faq-title {
+  font-size: 18px;
   font-weight: 500;
   color: black;
   align-items: left;
@@ -188,4 +174,28 @@ header {
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .image-content {
+    max-width: 80%;
+  }
+
+  header {
+    padding: 15px 20px;
+  }
+
+  .faq-title {
+    font-size: 12px;
+  }
+
+  .faq-answer {
+    font-size: 11px;
+  }
 }
