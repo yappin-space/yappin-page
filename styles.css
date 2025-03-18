@@ -203,4 +203,15 @@ html {
   .faq-answer {
     font-size: 11px;
   }
+
+  .text-content h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d6745b;
+  }
 }
