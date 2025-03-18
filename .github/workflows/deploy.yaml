@@ -1,4 +1,4 @@
-name: Yappin.space to GitHub Pages
+name: Deploy HTML to GitHub Pages
 
 on:
   push:
@@ -19,4 +19,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: . # Deploy everything in the repository
+          folder: .
+          clean: true
